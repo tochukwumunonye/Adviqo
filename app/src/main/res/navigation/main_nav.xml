@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/productListFragment">
+
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.example.adviqo.presentation.productList.ProductListFragment"
+        android:label="ProductListFragment" >
+        <action
+            android:id="@+id/action_productListFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+        <action
+            android:id="@+id/action_productListFragment_to_productHistoryFragment"
+            app:destination="@id/productHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.example.adviqo.presentation.productdetail.ProductDetailFragment"
+        android:label="ProductDetailFragment" >
+        <argument
+            android:name="selectedProduct"
+            app:argType="com.example.adviqo.domain.model.Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/productHistoryFragment"
+        android:name="com.example.adviqo.presentation.history.ProductHistoryFragment"
+        android:label="ProductHistoryFragment" >
+        <action
+            android:id="@+id/action_productHistoryFragment_to_productListFragment"
+            app:destination="@id/productListFragment" />
+    </fragment>
+</navigation>

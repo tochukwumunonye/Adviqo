@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_movies_layout"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/productThumbnail"
+        android:layout_width="@dimen/history_image"
+        android:layout_height="@dimen/history_image"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/productTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/productThumbnail"
+        android:layout_marginStart="@dimen/history_item_margin_start"
+        android:layout_marginTop="@dimen/history_item_margin_top"
+        android:layout_marginEnd="@dimen/history_item_margin_end"
+        android:layout_marginBottom="@dimen/history_item_buttom"
+        android:textSize="20sp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/productThumbnail"
+        android:layout_below="@+id/productTitle"
+        android:layout_marginStart="@dimen/history_item_margin_start"
+        android:layout_marginTop="@dimen/size_two"
+        android:layout_marginEnd="@dimen/size_eight"
+        android:layout_marginBottom="@dimen/size_four"
+        android:textSize="16sp" />
+
+</RelativeLayout>
