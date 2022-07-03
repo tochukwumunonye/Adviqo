@@ -6,8 +6,6 @@ Thanks so much for checking out my project.
 ## Table of content
 
 - [Prerequisite](#prerequisite)
-- [Preview](#preview)
-- [Feature](#feature)
 - [Design](#design)
 - [Architecture](#architecture)
 - [Testing](#testing)
@@ -19,14 +17,6 @@ Thanks so much for checking out my project.
 - MinSdk 21
 - TargetSdk 32
 
-
-## Preview
-<img src="https://user-images.githubusercontent.com/61085272/177013368-a94c171f-56fb-49b0-a01d-bea052ab32ff.png" width="33%" /> <img src="https://user-images.githubusercontent.com/61085272/177013374-1be12c6e-ce3a-4c7b-adb1-fdc6693fd73e.png" width="33%" /> 
-
-
-<img src="https://user-images.githubusercontent.com/61085272/177013379-c9959909-ebd6-455f-bd36-f7e7266d9da5.png" width="33%" /> 
-
-![Screenshot_20220702-200148](https://user-images.githubusercontent.com/61085272/177013385-46cb6f87-a00e-436a-8c6c-9d575ccb6d47.png)
 
 
 ## Design
